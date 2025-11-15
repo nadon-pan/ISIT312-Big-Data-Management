@@ -12,7 +12,7 @@ alter 'task2', {NAME => 'EMPLOYER', METHOD => 'delete'}
 # (4) Add new column to POSITION: total-application count
 #  and update values for existing postion 312,313
 put 'task2', 'position|312', 'POSITION:total-applications', '2'
-put 'task2', 'position|313', 'POSITION:total-application', '1'
+put 'task2', 'position|313', 'POSITION:total-applications', '1'
 
 # (5) Increase versions in APPLICANT cells
 alter 'task2', {NAME => 'APPLICANT', VERSIONS => 3}
