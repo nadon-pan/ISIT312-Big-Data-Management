@@ -1,4 +1,4 @@
-# TASK 1
+# TASK 2
 
 # (1) Find all info about position 312
 scan 'task2', {COLUMNS => 'POSITION', FILTER => "SingleColumnValueFilter('POSITION', 'position-number',=,'binary:312', true, true)", VERSIONS=>1}
